@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#startButton, #stopButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+#startButton:hover, #stopButton:hover {
+    background-color: #0056b3;
+}
+
+#displayTime, #breakTime {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+}
+
+#displayTime span, #breakTime span {
+    font-weight: bold;
+}
